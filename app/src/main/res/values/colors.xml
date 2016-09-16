@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_fb_search">#428bca</color>
+    <color name="bg_start">#452e36</color>
+    <color name="bg_login">#2e3237</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="bg_profile">#f2f1f1</color>
+    <color name="profile_text_heading">#428bca</color>
+    <color name="profile_text">#2e3237</color>
+
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="work_fee">#428bca</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#ffffff</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#212826</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="btn_register_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logout_bg">#ff6861</color>
+    <color name="btn_task_bg">#625e74</color>
+    <color name="btn_view_bg">#8b742b</color>
+
+    <color name="news_date">#999999</color>
+    <color name="news_title">#222222</color>
+
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="button_selected">#055797</color>
+    <color name="button_pressed">#225176</color>
+    <color name="button_focused">#075fa3</color>
+    <color name="button_default">#1c76bb</color>
+</resources>

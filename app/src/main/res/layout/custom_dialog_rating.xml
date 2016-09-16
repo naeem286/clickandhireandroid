@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize=".5"
+        android:rating="3.5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:id="@+id/rating"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:padding="9dp"
+        android:textColor="@color/profile_text_heading"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username" />
+    <EditText
+        android:id="@+id/userComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16dp"
+        android:hint="Write about Professional..."
+        android:minLines="1"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:inputType="textMultiLine"/>
+
+</LinearLayout>

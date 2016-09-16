@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_activity_work_list"
+    tools:context="com.example.naeemasghar.clickandhire.ActivityWorkList">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar_search">
+    </include>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:id="@+id/header"
+        android:layout_below="@+id/toolbar">
+
+        <ImageView
+            android:id="@+id/backdrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cover"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cat_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/backdrop_title"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/backdrop_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/backdrop_subtitle"
+                android:textColor="@color/white"
+                android:textSize="@dimen/backdrop_subtitle" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/card_view"
+        android:layout_below="@+id/header"
+        android:layout_margin="5dp">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_below="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:scrollbars="vertical" />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

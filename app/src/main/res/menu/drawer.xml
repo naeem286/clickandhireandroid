@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashboard"
+            android:checked="false"
+            android:icon="@drawable/ic_home"
+            android:title="@string/dashboard_string" />
+        <item
+            android:id="@+id/browse_professional"
+            android:checked="false"
+            android:icon="@drawable/ic_photos"
+            android:title="@string/professional_string" />
+
+        <item
+            android:id="@+id/browse_work"
+            android:checked="false"
+            android:icon="@drawable/ic_pages"
+            android:title="@string/find_work_string" />
+
+        <item
+            android:id="@+id/post_work"
+            android:checked="false"
+            android:icon="@drawable/ic_people"
+            android:title="@string/post_work_string" />
+
+        <item
+            android:id="@+id/my_work"
+            android:checked="false"
+            android:icon="@drawable/ic_whats_hot"
+            android:title="@string/my_work_string" />
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:icon="@drawable/ic_communities"
+            android:title="@string/logout_string" />
+    </group>
+
+</menu>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Click And Hire</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_start">Click and Hire</string>
+
+
+    <!-- Strings related to Start Activity -->
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_search">QUICK SEARCH</string>
+    <!-- Strings related to login -->
+    <string name="welcome">Welcome</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_phone">Phone No</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_qualification">Qualification</string>
+    <string name="hint_fees">Fee </string>
+    <string name="hint_description">Description</string>
+    <string name="hint_experience">Experience</string>
+    <string name="hint_speciality">Speciality</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_detail">Detail</string>
+    <string name="hint_fee">Fee</string>
+
+    <string name="hint_task_name">Task Description</string>
+
+    <string name="btn_link_to_register">Sign up Now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_task">Post Task</string>
+    <string name="btn_view">View Task</string>
+    <string name="btn_post">Post Task</string>
+    <string name="btn_view_task_list">View a list of tasks</string>
+    <string name="btn_update">UPDATE</string>
+
+    <string name="name">Fullname</string>
+    <string name="title_activity_post_task">PostTask</string>
+    <string name="title_activity_view_task">ViewTask</string>
+    <string name="title_activity_update_activity_one">UpdateActivityOne</string>
+    <string name="title_activity_update_activity_two">UpdateActivityTwo</string>
+    <string name="title_activity_quick_search">QuickSearchActivity</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string name="dashboard_string">Dashboard</string>
+    <string name="professional_string">Professional</string>
+    <string name="find_work_string">Find Work</string>
+    <string name="post_work_string">Post Work</string>
+    <string name="my_work_string">My Work</string>
+    <string name="logout_string">Logout</string>
+    <string name="openDrawer">Menu</string>
+    <string name="closeDrawer">Dashboard</string>
+    <!-- Nav Drawer List Item Icons -->
+
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Move</string>
+    <string name="backdrop_title">Browse Latest Projects </string>
+    <string name="backdrop_subtitle">Find work as you dream</string>
+
+    <string name="action_deactivate">Deactivate Work</string>
+    <string name="action_edit">Edit Work</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_browse_work">BrowseWork</string>
+    <string name="title_activity_news_detail">NewsDetailActivity</string>
+
+
+    <string-array name="professional_name">
+        <item>Naeem Asghar</item>
+        <item> Imran Khan</item>
+        <item>Hafiz Bilal</item>
+        <item>Nabeel Tariq</item>
+        <item>Imran Raza</item>
+        <item>Ali Raza</item>
+        <item>Shahid Khan</item>
+        <item>Waseem Khan</item>
+        <item>Moin Owaisi</item>
+        <item>Zaheer Abbas</item>
+        <item>Qasim Malik</item>
+    </string-array>
+    <string-array name="project_name">
+        <item>Software Engineer</item>
+        <item>Web Application</item>
+        <item>Electrical</item>
+        <item>Logo Designer</item>
+        <item>Mechanical</item>
+        <item>Computer Hardware</item>
+        <item>Health Tips</item>
+        <item>Maintenance</item>
+        <item>Accountant</item>
+        <item>Chemical Engineer</item>
+        <item>Computer Scientist</item>
+    </string-array>
+    <string-array name="user_rating">
+        <item>He work excellent and quick</item>
+        <item>yes, He is expert in mobile development</item>
+        <item>Good skills of problem solving</item>
+        <item>his work is just fine.</item>
+        <item>His response time is late</item>
+        <item>Best Software engineer</item>
+        <item>He made mobile app in 10 days. good work</item>
+        <item>I am satisfied with his work</item>
+        <item>Good job keep it up</item>
+        <item>I am happy with his work</item>
+        <item>He do work before time and quickly</item>
+    </string-array>
+    <string name="title_activity_work_list">Latest Projects</string>
+    <string name="title_activity_work_detail">WorkDetailActivity</string>
+    <string name="title_activity_sub_category_list">SubCategoryListActivity</string>
+    <string name="title_activity_professional_detail">ProfessionalDetailActivity</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+    <string name="title_activity_post_work">PostWorkActivity</string>
+    <string name="title_activity_activity_login">ActivityLogin</string>
+    <string name="title_activity_activity_register">ActivityRegister</string>
+    <string name="title_activity_activity_quick_search">Quick Search</string>
+    <string name="title_activity_activity_professional_detail">Professional Detail</string>
+    <string name="title_activity_activity_my_profile">ActivityMyProfile</string>
+    <string name="title_activity_activity_work_list">Latest Work</string>
+    <string name="title_activity_activity_work_detail">Work Detail</string>
+    <string name="title_activity_activity_sub_category_list">ActivitySubCategoryList</string>
+    <string name="title_activity_activity_post_work">ActivityPostWork</string>
+    <string name="title_activity_activity_news_detail">ActivityNewsDetail</string>
+    <string name="title_activity_activity_my_work_detail">My Work Detail</string>
+    <string name="title_activity_activity_my_work">My Work and Bids</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+</resources>

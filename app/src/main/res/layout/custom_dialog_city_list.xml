@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/summary_heading"
+        android:clickable="true"
+        android:text="Select City"
+        android:paddingLeft="20dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/profile_text_heading" />
+    <Spinner
+        android:id="@+id/spr_city"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"></Spinner>
+
+</LinearLayout>

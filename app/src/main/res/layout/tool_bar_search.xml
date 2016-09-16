@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:id="@+id/toolbarSearch">
+    <EditText
+        android:id="@+id/search_text"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="0dp"
+        android:textColorHint="#777"
+        android:padding="5dp"
+        android:textColor="#777"
+        android:hint="Write here"
+        android:background="@drawable/rounded_border_edittext"/>
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/btn_search"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:gravity="right"
+        android:clickable="true"
+        android:src="@drawable/search_icon"
+        android:background="@color/colorPrimary"
+        android:layout_toRightOf="@+id/search_text"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/edt_filter"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="2dp"
+        android:gravity="right"
+        android:clickable="true"
+        android:src="@drawable/ic_filter"
+        android:layout_toRightOf="@+id/btn_search"
+        />
+</android.support.v7.widget.Toolbar>
