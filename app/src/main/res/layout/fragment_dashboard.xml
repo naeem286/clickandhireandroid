@@ -92,6 +92,8 @@
             android:layout_below="@+id/card_view"
             android:layout_gravity="bottom|end"
             android:layout_margin="@dimen/fab_margin"
+            android:tint="@android:color/white"
+            app:backgroundTint="@color/profile_text_heading"
             android:src="@android:drawable/ic_input_add" />
     </android.support.v7.widget.CardView>
 

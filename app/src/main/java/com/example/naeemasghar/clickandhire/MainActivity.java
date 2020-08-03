@@ -78,11 +78,11 @@ public class MainActivity extends AppCompatActivity implements ConnectivityRecei
         txtName=(TextView)headerview.findViewById(R.id.username);
         txtEmail=(TextView)headerview.findViewById(R.id.email);
         profileImage=(ImageView) headerview.findViewById(R.id.profile_image);
-        //profileImage.setImageBitmap(getThumbnail("profile.png"));
+        profileImage.setImageBitmap(getThumbnail("profile.png"));
         //profileImage.setImageResource(R.drawable.profile);
 
-        String urlForImage = AppConfig.URL_For_Image + uid+".jpg";
-        imageLoader.DisplayImage(urlForImage, profileImage);
+       // String urlForImage = AppConfig.URL_For_Image + uid+".jpg";
+        //imageLoader.DisplayImage(urlForImage, profileImage);
 
         txtName.setText(name);
         txtEmail.setText(email);

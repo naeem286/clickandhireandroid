@@ -80,7 +80,7 @@ public class FragmentDashboard extends Fragment {
         if(!(newsList.size()>0)) {
             getCityNews(City);
         }
-        Toast.makeText(getActivity(), newsList.size() + " is size of list", Toast.LENGTH_SHORT).show();
+       // Toast.makeText(getActivity(), newsList.size() + " is size of list", Toast.LENGTH_SHORT).show();
         FloatingActionButton fab = (FloatingActionButton) v.findViewById(R.id.addNews);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

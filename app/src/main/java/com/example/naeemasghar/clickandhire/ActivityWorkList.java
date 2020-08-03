@@ -331,7 +331,7 @@ public class ActivityWorkList extends AppCompatActivity {
                 super.onPostExecute(s);
                 getTasks(s);
                 loading.dismiss();
-                Toast.makeText(getApplicationContext(),s,Toast.LENGTH_LONG).show();
+               // Toast.makeText(getApplicationContext(),s,Toast.LENGTH_LONG).show();
                 Toast.makeText(ActivityWorkList.this, "Search is done Successfully", Toast.LENGTH_LONG).show();
             }
 
